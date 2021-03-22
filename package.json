@@ -6,11 +6,16 @@
   "author": "moshuchao <chaoshumo@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "cz-conventional-changelog": "3.3.0"
+    "cz-conventional-changelog": "3.3.0",
+    "parcel-bundler": "^1.12.5"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "typescript": "^4.2.3",
+    "vue": "^2.6.12"
   }
 }
